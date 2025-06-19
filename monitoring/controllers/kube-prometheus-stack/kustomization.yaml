@@ -15,3 +15,5 @@ configMapGenerator:
         app.kubernetes.io/component: monitoring
 configurations:
   - kustomizeconfig.yaml
+  - ../../../monitoring/configs
+  
